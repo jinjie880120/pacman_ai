@@ -1,0 +1,874 @@
+==================== Iteration 0 ====================
+Weights at iteration 0 are correct.   Student/correct solution:
+
+{'action=east': 0,
+ 'action=exit': 0,
+ 'action=north': 0,
+ 'action=south': 0,
+ 'action=west': 0,
+ 'x=0': 0,
+ 'x=1': 0,
+ 'x=2': 0,
+ 'x=3': 0,
+ 'x=4': 0,
+ 'y=0': 0,
+ 'y=1': 0,
+ 'y=2': 0,
+ 'y=3': 0,
+ 'y=4': 0,
+ (0, 0): 0,
+ (0, 1): 0,
+ (0, 2): 0,
+ (0, 3): 0,
+ (0, 4): 0,
+ (1, 0): 0,
+ (1, 1): 0,
+ (1, 2): 0,
+ (1, 3): 0,
+ (1, 4): 0,
+ (2, 0): 0,
+ (2, 2): 0,
+ (2, 4): 0,
+ (3, 0): 0,
+ (3, 2): 0,
+ (3, 3): 0,
+ (3, 4): 0,
+ (4, 0): 0,
+ (4, 1): 0,
+ (4, 2): 0,
+ (4, 3): 0,
+ (4, 4): 0}
+
+Q-Values at iteration 0 for action 'north' are correct.   Student/correct solution:
+	q_values_k_0_action_north: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 0 for action 'east' are correct.   Student/correct solution:
+	q_values_k_0_action_east: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 0 for action 'exit' are correct.   Student/correct solution:
+	q_values_k_0_action_exit: """
+            0.0000      illegal       0.0000      illegal      illegal
+            0.0000      illegal   __________      illegal      illegal
+            0.0000      illegal       0.0000      illegal      illegal
+            0.0000      illegal   __________   __________      illegal
+            0.0000      illegal      illegal      illegal      illegal
+"""
+
+Q-Values at iteration 0 for action 'south' are correct.   Student/correct solution:
+	q_values_k_0_action_south: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 0 for action 'west' are correct.   Student/correct solution:
+	q_values_k_0_action_west: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+==================== Iteration 1 ====================
+Agent observed the transition (startState = (1, 0), action = south, endState = (1, 0), reward = 0.000000)
+
+Weights at iteration 1 are correct.   Student/correct solution:
+
+{'action=east': 0,
+ 'action=exit': 0,
+ 'action=north': 0,
+ 'action=south': 0.0,
+ 'action=west': 0,
+ 'x=0': 0,
+ 'x=1': 0.0,
+ 'x=2': 0,
+ 'x=3': 0,
+ 'x=4': 0,
+ 'y=0': 0,
+ 'y=1': 0.0,
+ 'y=2': 0,
+ 'y=3': 0,
+ 'y=4': 0,
+ (0, 0): 0,
+ (0, 1): 0,
+ (0, 2): 0,
+ (0, 3): 0,
+ (0, 4): 0,
+ (1, 0): 0.0,
+ (1, 1): 0,
+ (1, 2): 0,
+ (1, 3): 0,
+ (1, 4): 0,
+ (2, 0): 0,
+ (2, 2): 0,
+ (2, 4): 0,
+ (3, 0): 0,
+ (3, 2): 0,
+ (3, 3): 0,
+ (3, 4): 0,
+ (4, 0): 0,
+ (4, 1): 0,
+ (4, 2): 0,
+ (4, 3): 0,
+ (4, 4): 0}
+
+Q-Values at iteration 1 for action 'north' are correct.   Student/correct solution:
+	q_values_k_1_action_north: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 1 for action 'east' are correct.   Student/correct solution:
+	q_values_k_1_action_east: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 1 for action 'exit' are correct.   Student/correct solution:
+	q_values_k_1_action_exit: """
+            0.0000      illegal       0.0000      illegal      illegal
+            0.0000      illegal   __________      illegal      illegal
+            0.0000      illegal       0.0000      illegal      illegal
+            0.0000      illegal   __________   __________      illegal
+            0.0000      illegal      illegal      illegal      illegal
+"""
+
+Q-Values at iteration 1 for action 'south' are correct.   Student/correct solution:
+	q_values_k_1_action_south: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 1 for action 'west' are correct.   Student/correct solution:
+	q_values_k_1_action_west: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+==================== Iteration 2 ====================
+Agent observed the transition (startState = (3, 0), action = south, endState = (3, 0), reward = 0.000000)
+
+Weights at iteration 2 are correct.   Student/correct solution:
+
+{'action=east': 0,
+ 'action=exit': 0,
+ 'action=north': 0,
+ 'action=south': 0.0,
+ 'action=west': 0,
+ 'x=0': 0,
+ 'x=1': 0.0,
+ 'x=2': 0,
+ 'x=3': 0.0,
+ 'x=4': 0,
+ 'y=0': 0,
+ 'y=1': 0.0,
+ 'y=2': 0,
+ 'y=3': 0.0,
+ 'y=4': 0,
+ (0, 0): 0,
+ (0, 1): 0,
+ (0, 2): 0,
+ (0, 3): 0,
+ (0, 4): 0,
+ (1, 0): 0.0,
+ (1, 1): 0,
+ (1, 2): 0,
+ (1, 3): 0,
+ (1, 4): 0,
+ (2, 0): 0,
+ (2, 2): 0,
+ (2, 4): 0,
+ (3, 0): 0.0,
+ (3, 2): 0,
+ (3, 3): 0,
+ (3, 4): 0,
+ (4, 0): 0,
+ (4, 1): 0,
+ (4, 2): 0,
+ (4, 3): 0,
+ (4, 4): 0}
+
+Q-Values at iteration 2 for action 'north' are correct.   Student/correct solution:
+	q_values_k_2_action_north: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 2 for action 'east' are correct.   Student/correct solution:
+	q_values_k_2_action_east: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 2 for action 'exit' are correct.   Student/correct solution:
+	q_values_k_2_action_exit: """
+            0.0000      illegal       0.0000      illegal      illegal
+            0.0000      illegal   __________      illegal      illegal
+            0.0000      illegal       0.0000      illegal      illegal
+            0.0000      illegal   __________   __________      illegal
+            0.0000      illegal      illegal      illegal      illegal
+"""
+
+Q-Values at iteration 2 for action 'south' are correct.   Student/correct solution:
+	q_values_k_2_action_south: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 2 for action 'west' are correct.   Student/correct solution:
+	q_values_k_2_action_west: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+==================== Iteration 3 ====================
+Agent observed the transition (startState = (0, 0), action = exit, endState = TERMINAL_STATE, reward = -10.000000)
+
+Weights at iteration 3 are correct.   Student/correct solution:
+
+{'action=east': 0,
+ 'action=exit': -1.0,
+ 'action=north': 0,
+ 'action=south': 0.0,
+ 'action=west': 0,
+ 'x=0': -1.0,
+ 'x=1': 0.0,
+ 'x=2': 0,
+ 'x=3': 0.0,
+ 'x=4': 0,
+ 'y=0': -1.0,
+ 'y=1': 0.0,
+ 'y=2': 0,
+ 'y=3': 0.0,
+ 'y=4': 0,
+ (0, 0): -1.0,
+ (0, 1): 0,
+ (0, 2): 0,
+ (0, 3): 0,
+ (0, 4): 0,
+ (1, 0): 0.0,
+ (1, 1): 0,
+ (1, 2): 0,
+ (1, 3): 0,
+ (1, 4): 0,
+ (2, 0): 0,
+ (2, 2): 0,
+ (2, 4): 0,
+ (3, 0): 0.0,
+ (3, 2): 0,
+ (3, 3): 0,
+ (3, 4): 0,
+ (4, 0): 0,
+ (4, 1): 0,
+ (4, 2): 0,
+ (4, 3): 0,
+ (4, 4): 0}
+
+Q-Values at iteration 3 for action 'north' are correct.   Student/correct solution:
+	q_values_k_3_action_north: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 3 for action 'east' are correct.   Student/correct solution:
+	q_values_k_3_action_east: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 3 for action 'exit' are correct.   Student/correct solution:
+	q_values_k_3_action_exit: """
+           -3.0000      illegal      -1.0000      illegal      illegal
+           -3.0000      illegal   __________      illegal      illegal
+           -3.0000      illegal      -1.0000      illegal      illegal
+           -3.0000      illegal   __________   __________      illegal
+           -4.0000      illegal      illegal      illegal      illegal
+"""
+
+Q-Values at iteration 3 for action 'south' are correct.   Student/correct solution:
+	q_values_k_3_action_south: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 3 for action 'west' are correct.   Student/correct solution:
+	q_values_k_3_action_west: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+==================== Iteration 4 ====================
+Agent observed the transition (startState = (1, 0), action = east, endState = (2, 0), reward = 0.000000)
+
+Weights at iteration 4 are correct.   Student/correct solution:
+
+{'action=east': 0.0,
+ 'action=exit': -1.0,
+ 'action=north': 0,
+ 'action=south': 0.0,
+ 'action=west': 0,
+ 'x=0': -1.0,
+ 'x=1': 0.0,
+ 'x=2': 0,
+ 'x=3': 0.0,
+ 'x=4': 0,
+ 'y=0': -1.0,
+ 'y=1': 0.0,
+ 'y=2': 0,
+ 'y=3': 0.0,
+ 'y=4': 0,
+ (0, 0): -1.0,
+ (0, 1): 0,
+ (0, 2): 0,
+ (0, 3): 0,
+ (0, 4): 0,
+ (1, 0): 0.0,
+ (1, 1): 0,
+ (1, 2): 0,
+ (1, 3): 0,
+ (1, 4): 0,
+ (2, 0): 0,
+ (2, 2): 0,
+ (2, 4): 0,
+ (3, 0): 0.0,
+ (3, 2): 0,
+ (3, 3): 0,
+ (3, 4): 0,
+ (4, 0): 0,
+ (4, 1): 0,
+ (4, 2): 0,
+ (4, 3): 0,
+ (4, 4): 0}
+
+Q-Values at iteration 4 for action 'north' are correct.   Student/correct solution:
+	q_values_k_4_action_north: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 4 for action 'east' are correct.   Student/correct solution:
+	q_values_k_4_action_east: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 4 for action 'exit' are correct.   Student/correct solution:
+	q_values_k_4_action_exit: """
+           -3.0000      illegal      -1.0000      illegal      illegal
+           -3.0000      illegal   __________      illegal      illegal
+           -3.0000      illegal      -1.0000      illegal      illegal
+           -3.0000      illegal   __________   __________      illegal
+           -4.0000      illegal      illegal      illegal      illegal
+"""
+
+Q-Values at iteration 4 for action 'south' are correct.   Student/correct solution:
+	q_values_k_4_action_south: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 4 for action 'west' are correct.   Student/correct solution:
+	q_values_k_4_action_west: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+==================== Iteration 5 ====================
+Agent observed the transition (startState = (4, 1), action = west, endState = (4, 1), reward = 0.000000)
+
+Weights at iteration 5 are correct.   Student/correct solution:
+
+{'action=east': 0.0,
+ 'action=exit': -1.0,
+ 'action=north': 0,
+ 'action=south': 0.0,
+ 'action=west': 0.0,
+ 'x=0': -1.0,
+ 'x=1': 0.0,
+ 'x=2': 0,
+ 'x=3': 0.0,
+ 'x=4': 0.0,
+ 'y=0': -1.0,
+ 'y=1': 0.0,
+ 'y=2': 0,
+ 'y=3': 0.0,
+ 'y=4': 0.0,
+ (0, 0): -1.0,
+ (0, 1): 0,
+ (0, 2): 0,
+ (0, 3): 0,
+ (0, 4): 0,
+ (1, 0): 0.0,
+ (1, 1): 0,
+ (1, 2): 0,
+ (1, 3): 0,
+ (1, 4): 0,
+ (2, 0): 0,
+ (2, 2): 0,
+ (2, 4): 0,
+ (3, 0): 0.0,
+ (3, 2): 0,
+ (3, 3): 0,
+ (3, 4): 0,
+ (4, 0): 0,
+ (4, 1): 0.0,
+ (4, 2): 0,
+ (4, 3): 0,
+ (4, 4): 0}
+
+Q-Values at iteration 5 for action 'north' are correct.   Student/correct solution:
+	q_values_k_5_action_north: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 5 for action 'east' are correct.   Student/correct solution:
+	q_values_k_5_action_east: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 5 for action 'exit' are correct.   Student/correct solution:
+	q_values_k_5_action_exit: """
+           -3.0000      illegal      -1.0000      illegal      illegal
+           -3.0000      illegal   __________      illegal      illegal
+           -3.0000      illegal      -1.0000      illegal      illegal
+           -3.0000      illegal   __________   __________      illegal
+           -4.0000      illegal      illegal      illegal      illegal
+"""
+
+Q-Values at iteration 5 for action 'south' are correct.   Student/correct solution:
+	q_values_k_5_action_south: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 5 for action 'west' are correct.   Student/correct solution:
+	q_values_k_5_action_west: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+==================== Iteration 6 ====================
+Agent observed the transition (startState = (0, 3), action = exit, endState = TERMINAL_STATE, reward = -10.000000)
+
+Weights at iteration 6 are correct.   Student/correct solution:
+
+{'action=east': 0.0,
+ 'action=exit': -1.7000000000000002,
+ 'action=north': 0,
+ 'action=south': 0.0,
+ 'action=west': 0.0,
+ 'x=0': -1.7000000000000002,
+ 'x=1': 0.0,
+ 'x=2': 0,
+ 'x=3': 0.0,
+ 'x=4': 0.0,
+ 'y=0': -1.7000000000000002,
+ 'y=1': 0.0,
+ 'y=2': 0,
+ 'y=3': 0.0,
+ 'y=4': 0.0,
+ (0, 0): -1.0,
+ (0, 1): 0,
+ (0, 2): 0,
+ (0, 3): -0.7000000000000001,
+ (0, 4): 0,
+ (1, 0): 0.0,
+ (1, 1): 0,
+ (1, 2): 0,
+ (1, 3): 0,
+ (1, 4): 0,
+ (2, 0): 0,
+ (2, 2): 0,
+ (2, 4): 0,
+ (3, 0): 0.0,
+ (3, 2): 0,
+ (3, 3): 0,
+ (3, 4): 0,
+ (4, 0): 0,
+ (4, 1): 0.0,
+ (4, 2): 0,
+ (4, 3): 0,
+ (4, 4): 0}
+
+Q-Values at iteration 6 for action 'north' are correct.   Student/correct solution:
+	q_values_k_6_action_north: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 6 for action 'east' are correct.   Student/correct solution:
+	q_values_k_6_action_east: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 6 for action 'exit' are correct.   Student/correct solution:
+	q_values_k_6_action_exit: """
+           -5.1000      illegal      -1.7000      illegal      illegal
+           -5.8000      illegal   __________      illegal      illegal
+           -5.1000      illegal      -1.7000      illegal      illegal
+           -5.1000      illegal   __________   __________      illegal
+           -6.1000      illegal      illegal      illegal      illegal
+"""
+
+Q-Values at iteration 6 for action 'south' are correct.   Student/correct solution:
+	q_values_k_6_action_south: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+Q-Values at iteration 6 for action 'west' are correct.   Student/correct solution:
+	q_values_k_6_action_west: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.0000       0.0000       0.0000
+"""
+
+==================== Iteration 7 ====================
+Agent observed the transition (startState = (2, 2), action = exit, endState = TERMINAL_STATE, reward = 1.000000)
+
+Weights at iteration 7 are correct.   Student/correct solution:
+
+{'action=east': 0.0,
+ 'action=exit': -1.4300000000000002,
+ 'action=north': 0,
+ 'action=south': 0.0,
+ 'action=west': 0.0,
+ 'x=0': -1.7000000000000002,
+ 'x=1': 0.0,
+ 'x=2': 0.27,
+ 'x=3': 0.0,
+ 'x=4': 0.0,
+ 'y=0': -1.7000000000000002,
+ 'y=1': 0.0,
+ 'y=2': 0.27,
+ 'y=3': 0.0,
+ 'y=4': 0.0,
+ (0, 0): -1.0,
+ (0, 1): 0,
+ (0, 2): 0,
+ (0, 3): -0.7000000000000001,
+ (0, 4): 0,
+ (1, 0): 0.0,
+ (1, 1): 0,
+ (1, 2): 0,
+ (1, 3): 0,
+ (1, 4): 0,
+ (2, 0): 0,
+ (2, 2): 0.27,
+ (2, 4): 0,
+ (3, 0): 0.0,
+ (3, 2): 0,
+ (3, 3): 0,
+ (3, 4): 0,
+ (4, 0): 0,
+ (4, 1): 0.0,
+ (4, 2): 0,
+ (4, 3): 0,
+ (4, 4): 0}
+
+Q-Values at iteration 7 for action 'north' are correct.   Student/correct solution:
+	q_values_k_7_action_north: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.5400       0.0000       0.0000
+"""
+
+Q-Values at iteration 7 for action 'east' are correct.   Student/correct solution:
+	q_values_k_7_action_east: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.5400       0.0000       0.0000
+"""
+
+Q-Values at iteration 7 for action 'exit' are correct.   Student/correct solution:
+	q_values_k_7_action_exit: """
+           -4.8300      illegal      -0.8900      illegal      illegal
+           -5.5300      illegal   __________      illegal      illegal
+           -4.8300      illegal      -0.6200      illegal      illegal
+           -4.8300      illegal   __________   __________      illegal
+           -5.8300      illegal      illegal      illegal      illegal
+"""
+
+Q-Values at iteration 7 for action 'south' are correct.   Student/correct solution:
+	q_values_k_7_action_south: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.5400       0.0000       0.0000
+"""
+
+Q-Values at iteration 7 for action 'west' are correct.   Student/correct solution:
+	q_values_k_7_action_west: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.5400       0.0000       0.0000
+"""
+
+==================== Iteration 8 ====================
+Agent observed the transition (startState = (0, 1), action = exit, endState = TERMINAL_STATE, reward = -10.000000)
+
+Weights at iteration 8 are correct.   Student/correct solution:
+
+{'action=east': 0.0,
+ 'action=exit': -1.947,
+ 'action=north': 0,
+ 'action=south': 0.0,
+ 'action=west': 0.0,
+ 'x=0': -2.217,
+ 'x=1': 0.0,
+ 'x=2': 0.27,
+ 'x=3': 0.0,
+ 'x=4': 0.0,
+ 'y=0': -2.217,
+ 'y=1': 0.0,
+ 'y=2': 0.27,
+ 'y=3': 0.0,
+ 'y=4': 0.0,
+ (0, 0): -1.0,
+ (0, 1): -0.517,
+ (0, 2): 0,
+ (0, 3): -0.7000000000000001,
+ (0, 4): 0,
+ (1, 0): 0.0,
+ (1, 1): 0,
+ (1, 2): 0,
+ (1, 3): 0,
+ (1, 4): 0,
+ (2, 0): 0,
+ (2, 2): 0.27,
+ (2, 4): 0,
+ (3, 0): 0.0,
+ (3, 2): 0,
+ (3, 3): 0,
+ (3, 4): 0,
+ (4, 0): 0,
+ (4, 1): 0.0,
+ (4, 2): 0,
+ (4, 3): 0,
+ (4, 4): 0}
+
+Q-Values at iteration 8 for action 'north' are correct.   Student/correct solution:
+	q_values_k_8_action_north: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.5400       0.0000       0.0000
+"""
+
+Q-Values at iteration 8 for action 'east' are correct.   Student/correct solution:
+	q_values_k_8_action_east: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.5400       0.0000       0.0000
+"""
+
+Q-Values at iteration 8 for action 'exit' are correct.   Student/correct solution:
+	q_values_k_8_action_exit: """
+           -6.3810      illegal      -1.4070      illegal      illegal
+           -7.0810      illegal   __________      illegal      illegal
+           -6.3810      illegal      -1.1370      illegal      illegal
+           -6.8980      illegal   __________   __________      illegal
+           -7.3810      illegal      illegal      illegal      illegal
+"""
+
+Q-Values at iteration 8 for action 'south' are correct.   Student/correct solution:
+	q_values_k_8_action_south: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.5400       0.0000       0.0000
+"""
+
+Q-Values at iteration 8 for action 'west' are correct.   Student/correct solution:
+	q_values_k_8_action_west: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.5400       0.0000       0.0000
+"""
+
+==================== Iteration 9 ====================
+Agent observed the transition (startState = (1, 1), action = north, endState = (0, 1), reward = 0.000000)
+
+Q-Values at iteration 9 for action 'north' are NOT correct.   Student solution:
+	q_values_k_9_action_north: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.5400       0.0000       0.0000
+"""
+
+   Correct solution:
+	q_values_k_9_action_north: """
+           illegal      -1.8625      illegal      -0.6208      -0.6208
+           illegal      -1.8625   __________      -0.6208      -0.6208
+           illegal      -1.8625      illegal      -0.6208      -0.6208
+           illegal      -2.4833   __________   __________      -0.6208
+           illegal      -1.8625      -0.0808      -0.6208      -0.6208
+"""
+
+Q-Values at iteration 9 for action 'east' are NOT correct.   Student solution:
+	q_values_k_9_action_east: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.5400       0.0000       0.0000
+"""
+
+   Correct solution:
+	q_values_k_9_action_east: """
+           illegal      -1.2416      illegal       0.0000       0.0000
+           illegal      -1.2416   __________       0.0000       0.0000
+           illegal      -1.2416      illegal       0.0000       0.0000
+           illegal      -1.8625   __________   __________       0.0000
+           illegal      -1.2416       0.5400       0.0000       0.0000
+"""
+
+Q-Values at iteration 9 for action 'exit' are correct.   Student/correct solution:
+	q_values_k_9_action_exit: """
+           -6.3810      illegal      -1.4070      illegal      illegal
+           -7.0810      illegal   __________      illegal      illegal
+           -6.3810      illegal      -1.1370      illegal      illegal
+           -6.8980      illegal   __________   __________      illegal
+           -7.3810      illegal      illegal      illegal      illegal
+"""
+
+Q-Values at iteration 9 for action 'south' are NOT correct.   Student solution:
+	q_values_k_9_action_south: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.5400       0.0000       0.0000
+"""
+
+   Correct solution:
+	q_values_k_9_action_south: """
+           illegal      -1.2416      illegal       0.0000       0.0000
+           illegal      -1.2416   __________       0.0000       0.0000
+           illegal      -1.2416      illegal       0.0000       0.0000
+           illegal      -1.8625   __________   __________       0.0000
+           illegal      -1.2416       0.5400       0.0000       0.0000
+"""
+
+Q-Values at iteration 9 for action 'west' are NOT correct.   Student solution:
+	q_values_k_9_action_west: """
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________       0.0000       0.0000
+           illegal       0.0000      illegal       0.0000       0.0000
+           illegal       0.0000   __________   __________       0.0000
+           illegal       0.0000       0.5400       0.0000       0.0000
+"""
+
+   Correct solution:
+	q_values_k_9_action_west: """
+           illegal      -1.2416      illegal       0.0000       0.0000
+           illegal      -1.2416   __________       0.0000       0.0000
+           illegal      -1.2416      illegal       0.0000       0.0000
+           illegal      -1.8625   __________   __________       0.0000
+           illegal      -1.2416       0.5400       0.0000       0.0000
+"""
+
